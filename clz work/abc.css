@@ -1,0 +1,140 @@
+#bigbox{
+	width:1070;
+	height:2000;
+	background:black;
+}
+#fistbar{
+	width:1050;
+	height:100;
+	background:#ff0000;
+	margin:auto;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#inbara{
+	width:90;
+	height:90;
+	background:#ff0000;
+	margin:5;
+	float:left;
+}
+#inbaraa{
+	width:180;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	font-family:Comic Sans MS;
+	
+}
+
+#inbaraaa{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+	
+}
+#inbaraaaa{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbaraaaaa{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbaraaaaaa{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#twobar{
+	width:1050;
+	height:200;
+	background:white;
+	margin:10;
+}
+#inbarb{
+	width:130;
+	height:130;
+	background:#ff0000;
+	margin:10;
+	float:left;
+	text-align:center;
+}
+#inbarbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbbbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbbbbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbbbbbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+	margin:35;
+	float:left;
+	text-align:center;
+}
+#inbarbbbbbbbbb{
+	width:95;
+	height:40;
+	background:#ff0000;
+}

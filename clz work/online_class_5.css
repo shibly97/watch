@@ -1,0 +1,425 @@
+.big_box{
+	width:1349px;
+	height:1810px;
+	background:white;
+	margin:auto;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.theme_box{
+	width:1349px;
+	height:120px;
+	background:#333;
+	float:left
+}
+.logo_box{
+	width:320px;
+	height:110px;
+	background-image:url(images/coffee-logo.png);
+	background-size:cover;
+	margin-left:10px;
+	float:left;
+}
+.home1{
+	width:110px;
+	height:35px;
+	background:#555;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	margin-left:100px;
+	margin-top:40px;
+	font-family:Century Gothic;
+}
+.home1:hover{
+	background:#888;
+}
+.home{
+	width:110px;
+	height:35px;
+	background:#555;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	margin-top:40px;
+	font-family:Century Gothic;
+	
+}
+.home:hover{
+	background:#888;
+}
+.mobile_menu{
+	width:110px;
+	height:35px;
+	background:#555;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	margin-left:50px;
+	margin-top:18px;
+	font-family:Century Gothic;
+	border-radius:5px;
+	
+}
+.menu_sub{
+	width:110px;
+	height:120px;
+	background:#999;
+	float:left;
+	margin-top:14px;
+	position:absolute;
+}
+.in{
+	width:110px;
+	height:25px;
+	background:#999;
+	padding-top:5px;
+	
+}
+.in:hover{
+	background:#555;
+}
+
+.menu_sub{
+	display:none;
+}
+.mobile_menu:hover .menu_sub{
+	display:inherit;
+}
+.mobile_menu{
+	display:none;
+}
+.facebook{
+	width:44px;
+	height:44px;
+	background-image:url(images/fb.png);
+	background-size:cover;
+	float:left;
+	margin-left:250px;
+	margin-top:42px;
+}
+.google{
+	width:48px;
+	height:48px;
+	background-image:url(images/google.png);
+	background-size:cover;
+	float:left;
+	margin-left:13px;
+	margin-top:40px;
+}
+.twiteer{
+	width:57px;
+	height:57px;
+	background-image:url(images/twiteer.png);
+	background-size:cover;
+	float:left;
+	margin-left:10px;
+	margin-top:38px;
+}
+.img_box{
+	margin-top:10px;
+	width:1349px;
+	height:250px;
+	float:left;
+}
+.add_box{
+	width:1349px;
+	height:1150px;
+	float:left;
+	margin-top:10px;
+	background:#333;
+}
+.fist_box{
+	width:600px;
+	height:500px;
+	background:white;
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+.a_fist_box{
+	width:245px;
+	height:370px;
+	background-image:url(images/cover_3.jpg);
+	background-size:cover;
+	margin-left:15px;
+	margin-top:10px;
+	float:left;
+}
+
+
+
+.aa_fist_box{
+	width:340px;
+	height:370px;
+	float:left;
+}
+.price_box{
+	float:left;
+	list-style:none;
+	margin-left:10px;
+	margin-top:95px;
+}
+.doler{
+	font-family:Humanst521 BT;
+	font-size:38px;
+	font-weight:bold;
+}
+.price{
+	font-family:Franklin Gothic Book;
+	font-size:34px;
+	font-style:italic;
+}	
+.rate{
+	font-family:Humanst521 BT;
+	font-size:30px;
+	font-weight:bold;;
+}
+.Availlability{
+	font-family:Franklin Gothic Book;
+	font-size:20px;
+}
+.aaa_fist_box{
+	width:400px;
+	height:80px;
+	float:left;
+	font-size:53px;
+	font-family:Calibri;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+	margin-left:90px;
+}
+.b_fist_box{
+	width:540px;
+	height:120px;
+	float:left;
+	font-size:53px;
+	font-family:Calibri;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+	margin-left:30px;
+}
+.doler_2{
+	font-family:Humanst521 BT;
+	font-size:38px;
+	margin-left:90px;
+	line-height:80px;
+}
+.ab_fist_box{
+	width:250px;
+	height:350px;
+	margin-left:10px;
+	margin-top:55px;
+	float:left;
+}
+.c_fist_box{
+	width:540px;
+	height:120px;
+	float:left;
+	font-size:53px;
+	font-family:Calibri;
+	font-weight:bold;
+	text-align:center;
+	margin-left:30px;
+	margin-top:10px;
+}
+.Availlability_2{
+	font-family:Franklin Gothic Book;
+	font-size:20px;
+	margin-left:10px;
+	margin-top:20px;
+}
+.price_2{
+	font-family:Franklin Gothic Book;
+	font-size:30px;
+	font-style:italic;
+}
+.doler_3{
+	font-family:Humanst521 BT;
+	font-size:38px;
+	font-weight:bold;
+	margin-left:65px;
+}
+.rate_2{
+	font-family:Humanst521 BT;
+	font-size:30px;
+	margin-left:40px;
+	font-weight:bold;
+}
+.img_box_3{
+	margin-top:10px;
+	float:left;
+}
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+		.big_box{
+		background:white;
+		width:500px;
+		height:1800px;
+		}
+		
+		.theme_box{
+		width:500px;
+		height:80px;
+		}
+		.logo_box{
+		width:215px;
+		height:75px;
+		}
+		.mobile_menu{
+		display:inherit;
+		
+		}
+		.home1{
+		display:none;
+		}
+		.home{
+		display:none;
+		}
+		.facebook{
+		width:20px;
+		height:20px;
+		margin-left:8px;
+		margin-top:30px;
+		}
+		.google{
+		width:22px;
+		height:22px;
+		margin-top:30px;
+		margin-left:5px;
+		}
+		
+		.twiteer{
+		width:28px;
+		height:28px;
+		margin-top:26px;
+		margin-left:3px;
+		}
+		.img_box img{
+		width:500px;
+		height:100px;
+		}
+		.add_box{
+		width:480px;
+		height:1600px;
+		background:#222;
+		margin-top:-145px;
+		margin-left:4px;
+		}
+		.fist_box{
+		width:440px;
+		height:350px;
+		margin-left:20px;
+		margin-top:40px;
+		}
+		.a_fist_box{
+		width:140px;
+		height:210px;
+		}
+		.aa_fist_box{
+		width:250px;
+		height:250px;
+		}
+		.price_box{
+		margin-top:25px;
+		}
+		.doler{
+		font-size:30px;
+		}
+		.price{
+		font-size:28px;
+		}	
+		.rate{
+		font-size:28px;
+		}
+		.Availlability{
+		font-size:18px;
+		}
+		
+		.aaa_fist_box{
+		width:400px;
+		height:60px;
+		font-size:40px;
+		margin-left:20px;
+		margin-top:10px;
+		}
+		.b_fist_box{
+		width:400px;
+		height:85px;
+		font-size:40px;
+		margin-left:20px;
+		margin-top:0px;
+		}
+		.doler_2{
+		font-size:30px;
+		margin-left:30px;
+		margin-top:10px
+		}
+		.img_box_2{
+		width:420px;
+		height:180px;
+		margin-top:-20px;
+		}
+		.aaa_fist_box{
+		width:350px;
+		height:100px;
+		margin-left:40px;
+		margin-top:0px;
+		padding-top:0px;
+		font-size:40px;
+		}
+		.ab_fist_box img{
+		width:200px;
+		height:220px;
+		margin-top:-40px;
+		}
+		.aa_fist_box{
+		width:180px;
+		height:250px;
+		margin-left:-10px;
+		margin-top:0px;
+		}
+		.img_bog{
+		width:320px;
+		height:180px;
+		}
+		.c_fist_box{
+		width:300px;
+		height:80px;
+		font-size:40px;
+		margin-left:60px;
+		margin-top:10px;
+		}
+		.Availlability_2{
+		font-size:18px;
+		margin-top:0px;
+		}
+		.price_2{
+		font-size:20px;
+		}
+		.doler_3{
+		font-size:28px;
+		}
+		.rate_2{
+		font-size:20px;
+		margin-left:50px;
+		}
+		.img_box_3 img{
+		width:500px;
+		height:100px;
+		margin-top:5px;
+		
+		}
+	}

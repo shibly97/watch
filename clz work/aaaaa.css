@@ -1,0 +1,207 @@
+#bigbox{
+	width:1000;
+	height:500;
+	background:black;
+}
+
+#onebox{
+	width:250;
+	height:400;
+	background:black;
+	float:left;
+}
+
+#smallone{
+	width:220;
+	height:130;
+	background:black;
+	float:left;
+	margin-left:30;
+}
+#textone{
+	font-size:25px;
+	font-family:Berlin Sans FB;
+	color:white;
+}
+#texttwo{
+	font-size:16px;
+	font-family:Calibri;
+	line-height:0.7;
+	color:white;
+}
+#textthree{
+	font-size:25px;
+	font-family:Berlin Sans FB;
+	color:#ee6a12;
+}
+#textfour{
+	font-size:16px;
+	font-family:Calibri;
+	line-height:0.9;
+	color:white;
+}
+#smalltwo{
+	width:220;
+	height:130;
+	background:black;
+	float:left;
+	margin-left:30;
+}
+#smallthree{
+	width:220;
+	height:130;
+	background:black;
+	float:left;
+	margin-left:30;
+}
+#textfive{
+	font-size:25px;
+	font-family:Berlin Sans FB;
+	color:#ee6a12;
+}
+#textsix{
+	font-size:16px;
+	font-family:Calibri;
+	line-height:0.9;
+	color:white;
+}
+#textseven{
+	font-size:16px;
+	font-family:Calibri;
+	line-height:0.9;
+	color:white;
+}
+
+#textq{
+	font-size:25px;
+	font-family:Berlin Sans FB;
+	color:#ee6a12;
+	text-align:center;
+}
+#texta{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaa{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaaa{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaaaa{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaaaaa{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+
+
+#textqq{
+	font-size:25px;
+	font-family:Berlin Sans FB;
+	color:#ee6a12;
+	text-align:center;
+}
+#textaq{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaaq{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaaaq{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+#textaaaaq{
+	font-size:18px;
+	font-family:Calibri;
+	color:white;
+	text-align:center;
+}
+
+
+
+
+#twobox{
+	width:200;
+	height:350;
+	background:black;
+	float:left;
+	margin:25;
+}
+#threebox{
+	width:200;
+	height:350;
+	background:black;
+	float:left;
+	margin:25;
+}
+
+
+
+
+#fourbox{
+	width:250;
+	height:400;
+	background:black;
+	float:left;
+}
+#noq{
+	width:250;
+	height:180;
+	background:black;
+	float:left;
+}
+#sub{
+	width:220;
+	height:20;
+	float:left;
+	background:black;
+	font-family:Arial Unicode MS;
+	font-size:13;
+	color:white;
+	padding:12
+}
+#emailbox{
+	width:210;
+	height:40;
+	background:white;
+	margin:10;
+	float:left;
+	font-size:11;
+	border-radius:5px;
+}
+#subbox{
+	width:98;
+	height:20;
+	background:orange;
+	margin:10;
+	float:left;
+	font-size:15;
+	text-align:center;
+	font-family:Segoe UI Semibold;
+	border-radius:3px;
+	color:white;
+}

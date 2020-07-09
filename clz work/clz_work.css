@@ -1,0 +1,21 @@
+.slide{
+	width:1000px;
+	height:400px;
+}
+.myslides{
+	width:1000px;
+	height:400px;
+}
+.buttonleft{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:200px;
+}
+.buttonright{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:200px;
+	margin-left:200px;
+}

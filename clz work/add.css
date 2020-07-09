@@ -1,0 +1,186 @@
+#bigbox{
+	width:1000;
+	height:2000;
+	background:blue;
+	margin:auto;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#mainbox{
+	width:1000;
+	height:110;
+	background:black;
+	float:left;
+	margin:fixed;
+}
+#logo{
+	width:140;
+	height:100;
+	background:red;
+	float:left;
+	margin:5;
+}
+#none{
+	width:100;
+	height:30;
+	background:black;
+	float:left;
+}
+#home{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	text-align:center;
+	padding:10;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+	margin-top:45;
+}
+#about{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	padding:10;
+	text-align:center;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+	margin-top:45;
+	
+}
+#cervice{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	padding:10;
+	text-align:center;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+	margin-top:45;
+}
+#contact{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	padding:10;
+	text-align:center;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+	margin-top:45;
+}
+
+
+#about:hover #sub{
+	display:inherit;
+	}
+
+#home:hover{
+	background:black;
+	color:#fb5401;
+	font-family:Bahnschrift SemiBold;
+	font-size:20;
+	border-radius:5;
+}
+#about:hover{
+	background:black;
+	color:#fb5401;
+	font-family:Bahnschrift SemiBold;
+	font-size:20;
+}
+#cervice:hover{
+	background:black;
+	color:#fb5401;
+	font-family:Bahnschrift SemiBold;
+	font-size:20;
+}
+#contact:hover{
+	background:black;
+	color:#fb5401;
+	font-family:Bahnschrift SemiBold;
+	font-size:20;
+}
+
+
+
+
+#sub{
+	width:140px;
+	height:160px;
+	background:gray;
+	float:left;
+	margin-top:6px;
+	display:none;
+	margin-left:-010;
+	border-radius:5;
+	position:absolute;
+	
+}
+
+#team{
+	width:120;
+	height:22;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+	border-radius:5;
+`
+}
+#weq{
+	width:120;
+	height:20;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+	border-radius:5;
+}
+#web{
+	width:120;
+	height:22;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+	border-radius:5;
+}
+#ideas{
+	width:120;
+	height:22;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+	border-radius:5;
+}
+#team:hover{
+	background:#fb5401;
+	color:black;
+}
+#weq:hover{
+	background:#fb5401;
+	color:black;
+}
+#web:hover{
+	background:#fb5401;
+	color:black;
+}
+#ideas:hover{
+	background:#fb5401;
+	color:black;
+}
+#imagebox{
+	width:1000;
+	height:600;
+	background:red;
+	float:left;
+}

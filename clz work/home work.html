@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> SLIOP </title>
+<link href="home_work.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+
+<div class="slide">
+	<img class="mySlides" src="images/asa.jpg" width="800" height="400"/>
+	<img class="mySlides" src="images/box.jpg" width="800" height="400"/>
+	<img class="mySlides" src="images/box2.jpg" width="800" height="400"/>
+	<img class="mySlides" src="images/new_in.jpg" width="800" height="400"/>
+
+	<div class="buttonleft" onclick="plusDivs(-1)">
+		<img src="arr2.png"/>
+	</div>
+
+	<div class="buttonright" onclick="plusDivs(1)">
+		<img src="arr1.png"/>
+	</div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+ showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1}    
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+ }
+ x[slideIndex-1].style.display = "block";  
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+   }
+   slideIndex++;
+   if (slideIndex > x.length) {slideIndex = 1}
+   x[slideIndex-1].style.display = "block";
+   setTimeout(carousel, 5000);
+}
+</script>
+
+
+
+
+</body>
+</html>

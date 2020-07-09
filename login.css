@@ -1,0 +1,128 @@
+.log{
+	width:1340px;
+	height:650px;
+	background-image:url(images/Mens_Dress_Watches_2000x2000.webp) ;
+	margin:auto;
+	background-size:110%;
+	position:fixed;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.box{
+	width:1340px;
+	height:650px;
+	background-color:rgb(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+#log_box{
+	width:400px;
+	height:450px;
+	background:white;
+	border-radius:25px;
+	margin-left:50px;
+	margin-top:100px;
+	float:left;
+	box-shadow:0px 0px 10px black;
+	transition-duration: 0.3s;
+}
+#log{
+	font-family:Calibri Light;
+	font-size:50px;
+	text-align:center;
+	color:#ad7013;
+	margin-top:10px;
+	transition-duration: 0.4s;
+}
+#log_user{
+	font-family:Calibri Light;
+	font-size:25px;
+	margin-left:10px;
+	margin-top:30px;
+}
+#log_user_box:hover{
+	border:2px solid black;
+	transition:0.3s;
+}
+#log_user_box:focus
+	{border:2px solid #ad7013;
+	transition:2s;}
+
+#log_user_box{
+	width:340px;
+	height:35px;
+	margin-left:20px;
+	margin-top:5px;
+	border-radius:3px;
+	outline:none;
+	font-size:14px;
+	border:1.5px solid gray;
+	text-align:center;
+	transition-duration: 0.4s;
+}
+
+
+
+
+
+button{
+	width:90px;
+	height:40px;
+	margin-left:150px;
+	margin-top:20px;
+	outline:none;
+	font-size:18px;
+	color:#ad7013;
+	font-family:Calibri Light;
+	border: 2px solid #ad7013;
+	letter-spacing:0.3px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+button:active{
+	background:#ad7013;
+	transition:0.2s;
+	color:white;
+	transform: translateY(2px);
+}
+
+#forgot{
+	color:ad7013;
+	margin-left:140px;
+	margin-top:80px;
+	font-family:Humanst521 BT;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+#forgot:hover{
+	color:black;
+}
+
+#theme_name{
+	font-size:125px;
+	font-family:FoughtKnight;
+	float:left;
+	margin-left:10px;
+	margin-top:200px;
+	color:white;
+	text-shadow:5px 5px #111;
+	letter-spacing:3px;
+	transition-duration: 0.4s;
+}
+
+.text_2{
+	float:left;
+	font-size:23px;
+	font-family:Calibri;
+	color:white;
+	margin-left:180px;
+	transition-duration: 0.4s;
+}

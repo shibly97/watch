@@ -1,0 +1,180 @@
+#home{
+	width:250px;
+	height:35px;
+	background:blue;
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	float:left;
+}
+@media only screen and (max-display:none){
+		#box{
+		background:red;
+		display:none;
+		}
+	}
+
+#about{
+	width:250px;
+	height:35px;
+	background:blue;
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	float:left;
+
+}
+#contact{
+	width:250px;
+	height:35px;
+	background:blue;
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	float:left;
+
+}
+#contact{
+	width:250px;
+	height:35px;
+	background:blue;
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	float:left;
+
+}
+
+
+#menu{
+	width:250px;
+	height:35px;
+	background:blue;
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	float:left;
+	display:none;
+}
+@media only screen and (max-width:250px){
+		#menu1{
+		display:inherit;
+		}
+		#menu{
+		display:none;
+		}
+	}
+
+#box_1{
+	width:250px;
+	height:35px;
+	background:blue;
+	margin-top:14px;
+}
+#box_2{
+	width:250px;
+	height:35px;
+	background:blue;
+
+}
+#box_3{
+	width:250px;
+	height:35px;
+	background:blue;
+	
+}
+#box_4{
+	width:250px;
+	height:35px;
+	background:blue;
+
+}
+	
+#menu1sub{
+	display:none;
+}
+#menu:hover #menu1sub{
+	display:inherit;
+	
+}
+
+
+
+
+
+
+.big_box{
+		width:500px;
+		background-image:url(images/coffee_backgraund-2.jpg);
+		background-size:cover;
+		background-attachment:fixed;
+		}
+		
+		.theme{
+		width:500px;
+		height:100px;
+		background:red;
+		}
+		
+		.logo{
+		width:100px;
+		height:100px;
+		}
+		.head_name{
+		width:180px;
+		font-size:40px;
+		}
+		.menu_box{
+		display:none;
+		}
+		.menu1{
+		display:inherit;
+		}
+		.slide{
+		width:1000px;
+		height:330px;
+		float:left;
+		}
+		.mySlides{
+		width:500px;
+		height:115px;
+		margin-top:10px;
+		background-size:cover;
+		float:left;
+		}
+		.buttonleft{
+		width:10px;
+		height:10px;
+		position:absolute;
+		top:140px;
+		float:left;
+		}
+		.buttonright{
+		width:20px;
+		height:20px;
+		position:absolute;
+		top:140px;
+		margin-left:438px;
+		float:left;
+		}
+		.facebook{
+		width:25px;
+		height:25px;
+		position:absolute;
+		margin-left:340px;
+		margin-top:10px;
+		}
+		.instagram{
+		width:27px;
+		height:27px;
+		position:absolute;
+		margin-left:390px;
+		margin-top:10px;
+		}
+		.webin{
+		width:22px;
+		height:22px;
+		position:absolute;
+		margin-left:440px;
+		margin-top:10px;
+		}

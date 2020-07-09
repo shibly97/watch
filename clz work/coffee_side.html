@@ -1,0 +1,159 @@
+<html>
+<head><title>COFFEE SHOP | Sri Lankan Prodacts</title>
+<link href="coffee_side.css" rel="stylesheet" type="text/css"/></head>
+<body>
+
+
+<div class="big_box">
+	<div class="theme">
+		<div class="logo"><img src="images/coffe_transparent.png" width="100px" height="100px"/></div>
+		<div class="head_name">coffee $hop</div>
+		<div class="menu_box">
+			<div class="home">home</div>
+			<div class="home">coffee brand</div>
+			<div class="home">concact</div>
+			<div class="home">about</div>
+		</div>
+		 
+		<div class="menu1">
+			<div class="mobile_menu">menu
+				<div class="menu1sub">
+					<div class="box_1">home</div>
+					<div class="box_2">about</div>
+					<div class="box_3">contact</div>
+					<div class="box_4">cervice</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="facebook"></div>
+		<div class="instagram"></div>
+		<div class="webin"></div>
+	</div>
+	
+	<div class="slide">
+		<img class="mySlides" src="images/coffee-1(copy).jpg" />
+		<img class="mySlides" src="images/coffee-2(copy).jpg"  />
+		<img class="mySlides" src="images/coffee-3(copy).jpg"  />
+		<img class="mySlides" src="images/coffee-4(copy).jpg" />
+
+		<div class="buttonleft" onclick="plusDivs(-1)">
+			<img src="arr2.png"/>
+		</div>
+
+		<div class="buttonright" onclick="plusDivs(1)">
+			<img src="arr1.png"/>
+		</div>
+	</div>
+
+	<div class="text_box">
+	<div class="text_box2">
+	<div class="text_head"> Coffee</div>
+	<p class="text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds (referred to as "beans") are roasted to varying degrees, depending on the desired flavor.
+	Roasted beans are ground and then brewed with near-boiling water to produce the beverage known as coffee.
+	Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world, and it can be prepared and presented in a variety of ways (e.g., espresso, French press, caffè latte). It is usually served hot, although iced coffee is a popular alternative.</p>
+	<br/>
+	<p class="text">The earliest credible evidence of coffee-drinking as the modern beverage appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines. It was in what is now Yemen that coffee seeds were first roasted and brewed in a manner similar to how it is now prepared for drinking. But the coffee seeds had to be first exported from East Africa to Yemen,
+	as Coffea arabica is thought to have been indigenous to the former. The Yemenis obtained their coffee via Somali traders from Berbera who in turn procured the beans from the Ethiopian Highlands and began to cultivate the seed.
+	</p>
+	</div>
+	</div>
+	
+	<div class="coffee_box">
+		<div class="image_in"></div>
+		<div class="coffee_text">The word "coffee" entered the English language in 1582 via the Dutch koffie, borrowed from the Ottoman Turkish kahve, borrowed in turn from the Arabic قهوة qahwah.</div>
+	</div>
+
+	
+	<div class="coffee_box">
+		<div class="image_in_2"></div>
+		<div class="coffee_text">By the 16th century, coffee had reached the rest of the Middle East, Persia, Turkey, and northern Africa. The first coffee seeds were smuggled out of the Middle East by Sufi Baba Budan from Yemen to the Indian subcontinent in 1670.</div>
+	</div>
+	
+	
+	<div class="coffee_box">
+		<div class="image_in_3"></div>
+		<div class="coffee_text">The two most commonly grown are C. arabica and C. robusta. Coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Indian, and Africa</div>
+	</div>
+
+
+	<div class="text_box_1">
+	<h1><center>Coffee Preparation</center></h1><br/>
+	Coffee preparation is the process of turning coffee beans into a beverage. While the
+	particular steps vary with the type of coffee and with the raw materials,
+	the process includes four basic steps: raw coffee beans must be roasted, the roasted
+	coffee beans must then be ground, the ground coffee must then be mixed with hot water
+	for a certain time (brewed), and finally the liquid coffee must be separated from the used grounds.
+	for a certain time (brewed), and finally the liquid coffee must be separated from the used grounds.
+	Coffee is usually brewed immediately before drinking. In most areas, coffee may be purchased unprocessed, or already roasted, or already roasted and ground. 
+	Coffee is often vacuum packed to prevent oxidation and lengthen its shelf life.
+	</div>
+
+	<div class="last_box">
+		<div class="imgs"></div>
+		<div class="last_text">Refuge Coffee Co. is offering scheduled coffee deliveries via its food truck within 20 miles of the shop’s Clarkston location. The activist-driven coffee company provides job
+		training and opportunities for Atlanta’s refugee community at its Clarkston and Sweet Auburn locations. 
+		People interested in having coffee delivered straight to their neighborhood or office can text “truck” to 678-613-4670.
+	<br/>
+	<br/>
+		Roswell-based Southern restaurant Table & Main is providing hot meals to people in need, no questions asked. Meals include a 
+		protein, starch, and vegetable, along with fresh fruit and juice or milk. Meals are available Tuesday through Sunday, from 12 p.m.
+		to 4 p.m. and are first come, first served. The Canton Street restaurant has already served over 3,100
+		meals to those in need.
+	</div>
+	<div class="concact">
+	<p class="hd">Quick contact</p>
+	<br/>
+	<p class="hd1">Tel:</p>
+	<p class="hd2">076-14-33-343</p>
+	<p class="hd2">076-56-65-464</p>
+	<p class="hd2">076-34-24-434</p>
+	<p class="hd2">076-53-45-606</p>
+
+	</div>
+	</div>
+	
+	
+
+
+
+
+
+
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+ showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1}    
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+ }
+ x[slideIndex-1].style.display = "block";  
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+   }
+   slideIndex++;
+   if (slideIndex > x.length) {slideIndex = 1}
+   x[slideIndex-1].style.display = "block";
+   setTimeout(carousel, 5000);
+}
+</script>
+</body>
+</html>

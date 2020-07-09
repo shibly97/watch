@@ -1,0 +1,279 @@
+.big_box{
+	width:1349px;
+	height:1980px;
+	background:#e5e5e7;
+	margin:auto;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.theme_box{
+	width:1349px;
+	height:120px;
+	background:#333;
+	float:left
+}
+.logo_box{
+	width:320px;
+	height:110px;
+	background-image:url(images/coffee-logo.png);
+	background-size:cover;
+	margin-left:10px;
+	float:left;
+}
+.home1{
+	width:110px;
+	height:35px;
+	background:#555;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	margin-left:100px;
+	margin-top:40px;
+	font-family:Century Gothic;
+}
+.home1:hover{
+	background:#888;
+}
+.home{
+	width:110px;
+	height:35px;
+	background:#555;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	margin-top:40px;
+	font-family:Century Gothic;
+	
+}
+.home:hover{
+	background:#888;
+}
+.mobile_menu{
+	width:110px;
+	height:35px;
+	background:#555;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	margin-left:50px;
+	margin-top:18px;
+	font-family:Century Gothic;
+	border-radius:5px;
+	
+}
+.menu_sub{
+	width:110px;
+	height:120px;
+	background:#999;
+	float:left;
+	margin-top:14px;
+	position:absolute;
+}
+.in{
+	width:110px;
+	height:25px;
+	background:#999;
+	padding-top:5px;
+}
+.in:hover{
+	background:#555;
+}
+
+.menu_sub{
+	display:none;
+}
+.mobile_menu:hover .menu_sub{
+	display:inherit;
+}
+.mobile_menu{
+	display:none;
+}
+.facebook{
+	width:44px;
+	height:44px;
+	background-image:url(images/fb.png);
+	background-size:cover;
+	float:left;
+	margin-left:250px;
+	margin-top:42px;
+}
+.google{
+	width:48px;
+	height:48px;
+	background-image:url(images/google.png);
+	background-size:cover;
+	float:left;
+	margin-left:13px;
+	margin-top:40px;
+}
+.twiteer{
+	width:57px;
+	height:57px;
+	background-image:url(images/twiteer.png);
+	background-size:cover;
+	float:left;
+	margin-left:10px;
+	margin-top:38px;
+}
+.gallery{
+	width:600px;
+	height:120px;
+	background-image:url(images/gallery.jpg);
+	background-size:cover;
+	float:left;
+	margin-left:350px;
+}
+.gallery_box{
+	float:left;
+	width:1349px;
+	height:120px;
+	background:white;
+}
+.img_box_1{
+	margin-top:13px;
+	margin-left:13px;
+	width:430px; 
+	height:280px;
+}
+.img_box_2{
+	margin-top:13px;
+	margin-left:13px;
+	width:430px; 
+	height:280px;
+}
+
+
+
+.last_box{
+	width:1349px;
+	height:300px;
+	background:black;
+	float:left;
+	margin-top:10px;
+}
+.last_img{
+	width:200px;
+	height:300px;
+	background-image:url(images/Whipped-Coffee-1.jpg);
+	background-size:cover;
+	float:left;
+}
+.last_text{
+	width:1000px;
+	height:130px;
+	float:left;
+	color:white;
+	font-size:20px;
+	margin-left:80px;
+	margin-top:45px;
+	line-height:27px;
+	font-family:Microsoft YaHei Light;
+	display:inherit;
+	text-indent:100px;
+}
+
+.last_text_1{
+	width:1000px;
+	height:100px;
+	float:left;
+	color:white;
+	font-size:20px;
+	margin-left:80px;
+	line-height:27px;
+	font-family:Microsoft YaHei Light;
+	display:inherit;
+	text-indent:100px;
+}
+
+
+
+
+@media only screen and (max-width:500px){
+		.big_box{
+		background:white;
+		width:500px;
+		height:1250px;
+		}
+		
+		.theme_box{
+		width:500px;
+		height:80px;
+		}
+		.logo_box{
+		width:215px;
+		height:75px;
+		}
+		.mobile_menu{
+		display:inherit;
+		
+		}
+		.home1{
+		display:none;
+		}
+		.home{
+		display:none;
+		}
+		.facebook{
+		width:20px;
+		height:20px;
+		margin-left:8px;
+		margin-top:30px;
+		}
+		.google{
+		width:22px;
+		height:22px;
+		margin-top:30px;
+		margin-left:5px;
+		}
+		
+		.twiteer{
+		width:28px;
+		height:28px;
+		margin-top:26px;
+		margin-left:3px;
+		}
+		.gallery{
+		width:410px;
+		height:80px;
+		margin-left:25px;
+		}
+		.gallery_box{
+		width:500px;
+		height:90px;
+		background:white;
+		}
+		.img_box_1{
+		width:230px;
+		height:150px;
+		margin-left:5px;
+		margin-top:5px;
+		}
+		.last_box{
+		width:490px;
+		height:500px;
+		margin-top:20px;
+		}
+		.last_text{
+		width:250px;
+		height:300px;
+		margin-top:5px;
+		text-align:justify;
+		font-size:15px;
+		margin-left:15px;
+		}
+		.last_text_1{
+		width:465px;
+		margin-top:10px;
+		margin-left:5px;
+		text-align:justify;
+		font-size:15px;
+		}
+		.img_box_2{
+		display:none;
+		}
+	}

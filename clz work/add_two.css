@@ -1,0 +1,186 @@
+#bigbox{
+	width:1000;
+	height:2000;
+	background:blue;
+	margin:auto;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#mainbox{
+	width:1000;
+	height:110;
+	background:black;
+	position:absolute;
+}
+#logo{
+	width:140;
+	height:100;
+	background:red;
+	float:left;
+	margin:5;
+}
+#none{
+	width:100;
+	height:30;
+	background:black;
+	float:left;
+}
+#home{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	text-align:center;
+	padding:10;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+}
+#about{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	padding:10;
+	text-align:center;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+	
+}
+#cervice{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	padding:10;
+	text-align:center;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+}
+#contact{
+	width:120;
+	height:20;
+	background:#fb5401;
+	float:left;
+	margin:20;
+	padding:10;
+	text-align:center;
+	font-family:Berlin Sans FB;
+	border-radius:5px;
+}
+
+#sub{
+	width:130px;
+	height:180px;
+	background:gray;
+	position:absolute;
+	margin-top:7px;
+	display:none;
+	
+}
+
+#about:hover #sub{
+	display:inherit;
+	}
+
+#home:hover{
+	background:black;
+}
+#about:hover{
+	background:red;
+}
+#cervice:hover{
+	background:black;
+}
+#contact:hover{
+	background:black;
+}
+
+
+#home:hover{
+	color:#fb5401;
+}
+#about:hover{
+	color:#fb5401;
+}
+#cervice:hover{
+	color:#fb5401;
+}
+#contact:hover{
+	color:#fb5401;
+}
+
+#home:hover{
+	font-family:Bahnschrift SemiBold;
+}
+#about:hover{
+	font-family:Bahnschrift SemiBold;
+}
+#cervice:hover{
+	font-family:Bahnschrift SemiBold;
+}
+#contact:hover{
+	font-family:Bahnschrift SemiBold;
+}
+
+#home:hover{
+	font-size:20;
+}
+#about:hover{
+	font-size:20;
+}
+#cervice:hover{
+	font-size:20;
+}
+#contact:hover{
+	font-size:20;
+}
+
+
+#team{
+	width:100;
+	height:22;
+	background:green;
+	padding:10;
+	text-align:center;
+	font-size:18;
+}
+#we{
+	width:100;
+	height:20;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+}
+#web{
+	width:100;
+	height:22;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+}
+#ideas{
+	width:100;
+	height:22;
+	background:black;
+	padding:10;
+	text-align:center;
+	font-size:18;
+}
+#team:hover{
+	background:#fb5401;
+}
+#we:hover{
+	background:#fb5401;
+}
+#web:hover{
+	background:#fb5401;
+}
+#ideas:hover{
+	background:#fb5401;

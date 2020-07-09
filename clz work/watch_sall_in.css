@@ -1,0 +1,647 @@
+#long_box{
+	width:1350px;
+	height:1000px;
+	margin:auto;
+	background-image:url(images/80-801852_hd-images-collection-of-watch-horloge-fond-d.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+#theme_box{
+	width:1350px;
+	height:144px;
+	float:left;
+	background-image:url(images/76.jpg);
+	background-size:cover;
+}
+#theme_box_shadow{
+	width:1350px;
+	height:144px;
+	background-color:rgba(0,0,0,0.3)
+}
+#log_in_box{
+	width:60px;
+	height:60px;
+	margin-left:40px;
+	margin-top:18px;
+	position:absolute;
+	padding-top:5px;
+	color:white;
+	font-family:Calibri Light;
+	text-decoration:none;
+	position:fixed;
+}
+#log_in_box:hover{
+	opacity:0.6;
+	transition:0.4s;
+}
+#register_box{
+	width:55px;
+	height:54px;
+	margin-left:120px;
+	margin-top:28px;
+	position:absolute;
+	color:white;
+	font-family:Calibri Light;
+	position:fixed;
+}
+#register_box:hover{
+	opacity:0.6;
+	transition:0.4s;
+}
+#none_box{
+	width:1040px;
+	height:110px;
+	float:left;
+}
+#first{
+	font-family:Century Gothic;
+	font-size:55;
+	color:#e9eef5;
+	margin-left:400px;
+	text-shadow:5px 5px #212e3e;
+	letter-spacing:4px;
+	margin-top:-10px;
+	
+}
+#f{
+	font-family:Vivaldi;
+	font-size:90px;
+	color:#8db1de;
+
+}
+
+
+
+#phone_box{
+	width:310px;
+	height:110px;
+	float:left;
+}
+
+	
+.search{
+	width:700;
+	position:relative;
+	display:flex;
+}
+.searchterm{
+	width:70%;
+	border:2px solid black;
+	margin-left:30px;
+	padding:15px;
+	color:white;
+	height:30px;
+	border-radius:25px;
+	outline:none;
+	margin-top:13;
+	font-size:15px;
+	text-align:center;
+	background-color:black;
+	float:left;
+}
+.searchterm:focus{
+	color:white;
+}
+.searchterm:hover{
+	transition:0.5s;
+	border:2px solid #8e8f99;
+}
+#search_icon1{
+	width:32px;
+	height:26px;
+	padding-top:5px;
+	float:left;	
+	margin-top:15px;
+	margin-left:8px;
+	background-image:url(images/search.png);
+	background-size:cover;
+}
+#search_icon1:hover{
+	opacity:0.5;
+}
+
+#facebook_box{
+	float:left;
+	text-align:center;
+	margin-top:10;
+	margin-left:40;
+}
+#facebook_box:hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+
+
+
+#instargram_box{
+	float:left;
+	text-align:center;
+	margin-top:10;
+	margin-left:40;	
+}
+#instargram_box:hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+
+
+#linkedin_box{
+	float:left;
+	text-align:center;
+	margin-top:14;
+	margin-left:40;
+}
+#linkedin_box:hover{
+	opacity:0.3;
+	transition:0.5s;
+}
+
+
+#twitter_box{
+	float:left;
+	text-align:center;
+	margin-top:15;
+	margin-left:40;
+}
+#twitter_box:hover{
+	opacity:0.3;
+	transition:0.5s;
+}
+
+
+
+#home_box{
+	width:150px;
+	height:25px;
+	letter-spacing:2px;
+	float:left;
+	margin-left:20;
+	color:white;
+	font-size:16;
+	text-align:center;
+	padding-top:5;
+	font-family:Times New Roman ;
+	border-radius:5px;
+	margin-top:-2px;
+
+
+}
+
+
+#home_box:hover{
+	transition: 0.2s;
+	box-shadow:2px 2px 10px black;
+	font-size:18px;
+	
+	
+}
+#brands_box{
+	width:160px;
+	height:25px;
+	letter-spacing:2px;
+	float:left;
+	font-size:16; 
+	margin-left:20;
+	color:white;
+	text-align:center;
+	padding-top:5;
+	font-family:Times New Roman;
+	border-radius:5px;
+	margin-top:-2px;
+	
+}
+#sab{
+	width:1150px;
+	height:430px;
+	background:#101011;
+	margin-top:4;
+	display:none;
+	margin-left:-100;
+	border-radius:5px;
+	box-shadow:0px 6px 15px black;
+	position:absolute;
+	
+}
+#one{
+	width:600;
+	height:430;
+	background:white;
+	float:left;
+	letter-spacing:0px;
+}
+#two{
+	width:550;
+	height:430;
+	background:white;
+	float:left;
+	
+}
+#brands_box:hover #sab{display:inherit;}
+#brands_box:hover{
+	transition: 0.2s;
+	box-shadow:2px 2px 10px black;
+	font-size:18px;
+	
+}
+#a{
+	width:200;
+	height:43;
+	background:white;
+	padding-top:10;
+	border-radius:5px;
+	float:left;
+	color:black;
+}
+#a:hover{
+	background:#eeefef;
+
+}
+#aa{
+	width:200;
+	height:43;
+	background:white;
+	padding-top:10;
+	border-radius:5px;
+	float:left;
+	color:black;
+}
+#aa:hover{
+	background:#eeefef;
+
+}
+#aaa{
+	width:200;
+	height:43;
+	background:white;
+	padding-top:10;
+	border-radius:5px;
+	float:left;
+	color:black;
+}
+#aaa:hover{
+	background:#eeefef;
+
+}
+
+
+
+
+
+#mens_box{
+	width:170px;
+	height:27px;
+	float:left;
+	margin-left:20;
+	color:white;
+	font-size:16;
+	text-align:center;
+	padding-top:5;
+	font-family:Times New Roman;
+	border-radius:5px;
+	margin-top:-2px;
+	letter-spacing:2px;
+}
+
+#mens_box:hover{
+	color:black;
+	transition: 0.2s;
+	box-shadow:2px 2px 10px black;
+	font-size:18px;
+}
+
+
+#subb{
+	width:750px;
+	height:430px;
+	background:#101011;
+	margin-top:4;
+	display:none;
+	margin-left:-15;
+	border-radius:5px;
+	box-shadow:0px 6px 15px black;
+	position:absolute;
+	float:left;
+	
+}
+#mens_box:hover #subb{display:inherit;}
+#mens_box:hover{
+	color:white;
+	
+
+	
+}
+#oone_box{
+	width:200;
+	height:430;
+	background:#e6e5e2;
+	float:left;
+	color:black;
+}
+#two_box{
+	width:400;
+	height:430;
+	background:#e6e5e2;
+	float:left;
+}
+#q{
+	width:200;
+	height:43;
+	background:#e6e5e2;
+	padding-top:10;
+	border-radius:5px;
+	float:left;
+}
+#q:hover{
+	background:#e6e5e2;
+}
+
+
+
+
+
+
+
+
+#ladies_box{
+	width:170px;
+	height:27px;
+	letter-spacing:2px;
+	float:left;
+	margin-left:20;
+	color:white;
+	font-size:16;
+	text-align:center;
+	padding-top:5;
+	font-family:Times New Roman;
+	border-radius:5px;
+	margin-top:-2px;	
+	
+}
+
+#ladies_box:hover{
+	color:black;
+	transition: 0.2s;
+	box-shadow:2px 2px 10px black;
+	font-size:18px;
+}
+
+
+#sub{
+	width:600px;
+	height:430px;
+	background:#101011;
+	margin-top:4;
+	display:none;
+	margin-left:-15;
+	border-radius:5px;
+	box-shadow:0px 6px 15px black;
+	position:absolute;
+	float:left;
+}
+#ladies_box:hover #sub{display:inherit;}
+#ladies_box:hover{
+	color:white;
+}
+#onne_box{
+	width:200;
+	height:430;
+	background:#e6e5e2;
+	float:left;
+	color:black;
+}
+#twwo_box{
+	width:400;
+	height:430;
+	background:#e6e5e2;
+	float:left;
+}
+#q{
+	width:200;
+	height:43;
+	background:#e6e5e2;
+	padding-top:10;
+	border-radius:5px;
+	float:left;
+}
+#q:hover{
+	background:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer_box{
+	width:1350px;
+	height:300px;
+	margin:auto;
+	background:black;
+}
+
+#icon_box{
+	width:825px;
+	height:78px;
+
+	padding-left:490px;
+	margin-left:18px;
+	border-bottom:1px solid orange;
+}
+#icon_box1{
+	width:28px;
+	height:26px;
+	transition:0.5s;
+	border-radius:50px;
+	background:#5862fa;
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+	padding:14px;
+}
+#icon_box1:hover{
+	background-color:#00eaff;
+	transition:0.4s;
+	padding:16px;
+	opacity:0.5;
+
+}
+#icon_box2{
+	width:28px;
+	height:26px;
+	border-radius:50px;
+	background:#f31c00;
+	margin-top:10px;
+	transition:0.5s;
+	float:left;
+	margin-left:20px;
+	padding:14px;
+}
+#icon_box2:hover{
+	background-color:gray;
+	transition:0.5s;
+	padding:16px;
+	opacity:0.5;
+}
+
+#icon_box3{
+	width:28px;
+	height:26px;
+	border-radius:50px;
+	background:gray;
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+	padding:14px;
+	transition:0.5s;
+}
+#icon_box3:hover{
+	background-color:#f31c00;
+	transition:0.5s;
+	padding:16px;
+	opacity:0.5;
+}
+
+#icon_box4{
+	width:28px;
+	height:26px;
+	border-radius:50px;
+	background:#00eaff;
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+	padding:14px;
+	transition:0.5s;
+}
+#icon_box4:hover{
+	background-color:#5862fa;
+	transition:0.5s;
+	padding:16px;
+	opacity:0.5;
+}
+
+
+#change{
+	width:1200px;
+	height:40px;
+	margin-left:100px;
+	margin-top:100px;
+	float:left;
+}
+#name{
+	font-size:20px;
+	font-family:Maiandra GD;
+	color:white;
+	margin-left:70px;
+}
+#name:hover{
+	color:orange;
+	transition:0.2s;
+}
+
+
+#email{
+	width:350px;
+	height:28px;
+	background:red;
+	float:left;
+	border-radius:10px;
+	margin-left:500px;
+	margin-top:15px;
+}
+.sas{
+	width:350px;
+	height:28px;
+	font-size:15px;
+	border-radius:10px;
+	text-align:center;
+	border:2px solid white;
+	outline:none;
+	background-color:black;
+}
+.sas:hover{
+	border:2px solid orange;
+	
+}
+.sas:focus{
+	color:black;
+	background-color:black;
+	color:white;
+	border:2px solid gray;
+}
+
+#search_icon{
+	width:32px;
+	height:26px;
+	padding-top:5px;
+	float:left;	
+	margin-top:12px;
+	margin-left:4px;
+	background-image:url(images/search_white_color.png);
+	background-size:cover;
+}
+#search_icon:hover{
+	background-image:url(images/search_orange.png);
+	background-size:cover;
+
+}
+
+
+
+
+
+
+
+#long_box_shadow{
+	width:1300px;
+	height:800px;
+	margin-left:25px;
+	margin-top:25px;
+	float:left;
+	background-color:rgba(255,255,255,0.5);
+}
+#in_box{
+	width:250px;
+	height:300px;
+	background-image:url(images/00.jpg);
+	float:left;
+}
+#text_in{
+	width:234;
+	height:55;
+	float:left;
+	text-align:center;
+	padding:8;
+	font-family:Candara;
+	
+
+}
+#prize_box{
+	width:170;
+	height:34;
+	float:left;
+	padding-top:5;
+	padding-left:10;
+	font-family:Constantia;
+	font-size:22;	
+}
+#offer{
+	width:50;
+	height:34;
+
+	float:left;
+	padding-top:5;
+	padding-left:20;
+	font-family:Constantia;
+	font-size:22;
+	
+}
